@@ -8,7 +8,6 @@ def home():
 
 
 def factorial(n):
-    """Calcula el factorial de un número."""
     if n < 0:
         return None
     elif n == 0 or n == 1:
